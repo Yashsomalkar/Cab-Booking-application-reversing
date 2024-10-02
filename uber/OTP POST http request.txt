@@ -1,0 +1,27 @@
+POST /rt/silk-screen/submit-form HTTP/2
+Host: cn-geo1.uber.com
+Accept: */*
+X-Uber-Usl-Id: 00d805ab-08e4-453a-b711-34c4104a4828
+X-Uber-Client-Id: com.ubercab
+X-Uber-Device-Location-Latitude: 0
+User-Agent: Mozilla/5.0 (Linux; Android 9; SM-G977N Build/LMY48Z; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36
+X-Uber-Device-Udid: 00d805ab-08e4-453a-b711-34c4104a4828
+X-Uber-Client-Name: client
+X-Uber-App-Device-Id: 78b10f18-819e-4c46-82bd-fee557642c51
+X-Uber-Device: android
+X-Uber-Client-Version: 4.515.10001
+X-Uber-Device-Location-Longitude: 0
+X-Uber-Request-Uuid: d72b7cd5-f753-4d97-b118-da83e9b368b1
+X-Uber-Cold-Launch-Id: 3f0eb339-14a6-42ba-b124-340fd72d036c
+Origin: https://auth.uber.com
+X-Requested-With: com.ubercab
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://auth.uber.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json
+Content-Length: 2064
+
+{"formContainerAnswer":{"formAnswer":{"accountManagementFlow":false,"additionalParams":{"isEmailUpdatePostAuth":false},"codeChallenge":"VZ7VgKLnWCQrZ3YT0bI2rGg1a-IdZhs46Sj4yJ_QMqs","daffFlow":false,"deviceData":"{\"androidId\":\"90344cc1522d9a99\",\"batteryLevel\":0.8500000238418579,\"batteryStatus\":false,\"carrier\":\"T-Mobile\",\"carrierMcc\":\"310\",\"carrierMnc\":\"260\",\"course\":0,\"cpuAbi\":\"x86_64\",\"deviceAltitude\":0,\"deviceIds\":{\"androidId\":\"90344cc1522d9a99\",\"appDeviceId\":\"78b10f18-819e-4c46-82bd-fee557642c51\",\"drmId\":\"8981EE324E2F554BE5D2589C3A8FD426B48BF12E4446EE2ACCBF5E682691CA7B\",\"googleAdvertisingId\":\"40467698-273f-48ba-92ba-ab894c355c95\",\"googleAppSetId\":\"4ba079d0-b031-465c-94c6-309550c1ab74\",\"installationUuid\":\"00d805ab-08e4-453a-b711-34c4104a4828\",\"perfId\":\"8EC1FA7A-57A8-4490-A7EA-7FD37513E2C7\",\"udid\":\"00d805ab-08e4-453a-b711-34c4104a4828\",\"unknownItems\":{\"c\":[]}},\"deviceLatitude\":0,\"deviceLongitude\":0,\"deviceModel\":\"SM-G977N\",\"deviceOsName\":\"android\",\"deviceOsVersion\":\"9\",\"emulator\":false,\"epoch\":{\"value\":1713473964},\"horizontalAccuracy\":0,\"ipAddress\":\"\",\"libCount\":0,\"locationServiceEnabled\":false,\"mockGpsOn\":false,\"rooted\":false,\"sourceApp\":\"rider\",\"specVersion\":\"2.0\",\"speed\":0,\"systemTimeZone\":\"Asia/Calcutta\",\"unknownItems\":{\"c\":[]},\"version\":\"4.515.10001\",\"versionChecksum\":\"b9cd231d01a829519cf3278b3e9c0986\",\"verticalAccuracy\":0,\"wifiConnected\":false}","firstPartyClientID":"zozycDbnl17oSjKXdw_x_QuNvq5wfRHq","flowType":"INITIAL","productConstraints":{"autoSMSVerificationSupported":true,"isAppleAvailable":false,"isFacebookAvailable":false,"isGoogleAvailable":false,"isKakaoAvailable":false,"isRakutenAvailable":false,"isWhatsAppAvailable":false,"uslFELibVersion":"","uslMobileLibVersion":""},"screenAnswers":[{"eventType":"TypeSMSOTP","screenType":"PHONE_OTP","fieldAnswers":[{"fieldType":"PHONE_SMS_OTP","phoneSMSOTP":"2563"}]}],"standardFlow":true},"inAuthSessionID":"d31e8e18-8dc4-498d-881c-2890e566169c"}}

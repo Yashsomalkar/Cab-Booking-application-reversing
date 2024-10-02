@@ -1,0 +1,8 @@
+UserID --string
+Latitute -- encoded in i64 i.e. Fixed 64 memcpy in C (uint64 , double) , it should be 8 bit
+Lonfitude -- encoded in i64 i.e. Fixed 64 memcpy in C (uint64 , double) , it should be 8 bit
+appId -- string 
+App version --string
+Are the attritubes of the seceret protobuf POST request.
+other than this there are extra constant bytes 2 at the start of the UserId and one in the End of userID
+then one between Latitude and Longitute and one between appID and Appversion.

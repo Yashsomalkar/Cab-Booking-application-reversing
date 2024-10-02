@@ -1,0 +1,24 @@
+second request
+HTTP/2 200 OK
+Date: Thu, 18 Apr 2024 20:59:29 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+Load: q=268
+Rpc-Service: edge-gateway
+X-Request-Id: c5e3aa20-9fe5-4d42-939b-ee7f0e0fa130
+X-Uber-App: edge-gateway
+X-Uber-Rtapi-Duration: 253
+X-Uber-Edge: e4-phx5:p:1435385495
+Access-Control-Allow-Headers: Accept, Origin, Keep-Alive, Content-Type, X-Uber-Analytics-Session-Id, X-Uber-App-Device-Id, X-Uber-App-Variant, X-Uber-Challenge-Provider, X-Uber-Challenge-Token, X-Uber-Client-Claim, X-Uber-Client-Id, X-Uber-Client-Name, X-Uber-Client-Version, X-Uber-Cold-Launch-Id, X-Uber-Dcurl, X-Uber-Device, X-Uber-Device-Epoch, X-Uber-Device-Id, X-Uber-Device-Ids, X-Uber-Device-Language, X-Uber-Device-Location-Accuracy, X-Uber-Device-Location-Altitude, X-Uber-Device-Location-Course, X-Uber-Device-Location-Latitude, X-Uber-Device-Location-Longitude, X-Uber-Device-Location-Provider, X-Uber-Device-Location-Speed, X-Uber-Device-Model, X-Uber-Device-Os, X-Uber-Device-UDID, X-Uber-Did, X-Uber-Hot-Launch-Id, X-Uber-Launch-Id, X-Uber-Marketing-Id, X-Uber-Request-UUID, X-Uber-Redirectcount, X-Uber-Privileged-Op-Url, X-Uber-Sig-Status, X-Uber-Target-Location-Latitude, X-Uber-Target-Location-Longitude, X-Uber-Usl-Id, X-Uber-User-Cloud-Id, X-Uber-User-Identifier, X-Recaptcha-Token, X-Uber-Token
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Access-Control-Allow-Origin: https://auth.uber.com
+Access-Control-Max-Age: 86400
+X-Envoy-Upstream-Service-Time: 505
+Server: ufe
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{"form":{"flowType":"SIGN_IN","screens":[{"screenType":"RESET_ACCOUNT","fields":[{"fieldType":"RESET_ACCOUNT","selectAccountHints":null}],"eventType":"TypeResetAccount","categoryType":"OTHER_OPTION"}]},"inAuthSessionID":"d31e8e18-8dc4-498d-881c-2890e566169c","alternateForms":[{"flowType":"SIGN_UP","screens":[{"screenType":"RESET_ACCOUNT","fields":null,"eventType":"TypeMobileReclaim","categoryType":"OTHER_OPTION"}]}],"cookies":null}

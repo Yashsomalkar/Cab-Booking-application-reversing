@@ -1,0 +1,29 @@
+First request 
+POST /rt/silk-screen/submit-form HTTP/1.1
+Host: cn-geo1.uber.com
+Accept: */*
+X-Uber-Usl-Id: 00d805ab-08e4-453a-b711-34c4104a4828
+X-Uber-Client-Id: com.ubercab
+X-Uber-Device-Location-Latitude: 0
+User-Agent: Mozilla/5.0 (Linux; Android 9; SM-G977N Build/LMY48Z; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36
+X-Uber-Device-Udid: 00d805ab-08e4-453a-b711-34c4104a4828
+X-Uber-Client-Name: client
+X-Uber-App-Device-Id: 78b10f18-819e-4c46-82bd-fee557642c51
+X-Uber-Device: android
+X-Uber-Client-Version: 4.515.10001
+X-Uber-Device-Location-Longitude: 0
+X-Uber-Request-Uuid: db8ee4b0-288e-4482-821e-1f47c63f7160
+X-Uber-Cold-Launch-Id: c6906dd6-dd3f-41ec-a081-f698e82b6e1a
+Origin: https://auth.uber.com
+X-Requested-With: com.ubercab
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://auth.uber.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json
+Content-Length: 2108
+Connection: close
+
+{"formContainerAnswer":{"formAnswer":{"accountManagementFlow":false,"additionalParams":{"isEmailUpdatePostAuth":false},"codeChallenge":"VZ7VgKLnWCQrZ3YT0bI2rGg1a-IdZhs46Sj4yJ_QMqs","daffFlow":false,"deviceData":"{\"androidId\":\"90344cc1522d9a99\",\"batteryLevel\":0.8500000238418579,\"batteryStatus\":false,\"carrier\":\"T-Mobile\",\"carrierMcc\":\"310\",\"carrierMnc\":\"260\",\"course\":0,\"cpuAbi\":\"x86_64\",\"deviceAltitude\":0,\"deviceIds\":{\"androidId\":\"90344cc1522d9a99\",\"appDeviceId\":\"78b10f18-819e-4c46-82bd-fee557642c51\",\"drmId\":\"B2DA9D860DF8B959E9C0DB1A8CFCBAF0FD819A0CC67AE92967A782F54FCA9E7A\",\"googleAdvertisingId\":\"e67bfd18-11a1-4b5c-af44-fb956891b811\",\"googleAppSetId\":\"83249da1-256d-4f36-bbf7-3c9fea26e233\",\"installationUuid\":\"00d805ab-08e4-453a-b711-34c4104a4828\",\"perfId\":\"509BCD5A-2DD7-4958-8656-BE6B4210454F\",\"udid\":\"00d805ab-08e4-453a-b711-34c4104a4828\",\"unknownItems\":{\"c\":[]}},\"deviceLatitude\":0,\"deviceLongitude\":0,\"deviceModel\":\"SM-G977N\",\"deviceOsName\":\"android\",\"deviceOsVersion\":\"9\",\"emulator\":false,\"epoch\":{\"value\":1713473790},\"horizontalAccuracy\":0,\"ipAddress\":\"\",\"libCount\":0,\"locationServiceEnabled\":false,\"mockGpsOn\":false,\"rooted\":false,\"sourceApp\":\"rider\",\"specVersion\":\"2.0\",\"speed\":0,\"systemTimeZone\":\"Asia/Calcutta\",\"unknownItems\":{\"c\":[]},\"version\":\"4.515.10001\",\"versionChecksum\":\"b9cd231d01a829519cf3278b3e9c0986\",\"verticalAccuracy\":0,\"wifiConnected\":false}","firstPartyClientID":"zozycDbnl17oSjKXdw_x_QuNvq5wfRHq","flowType":"INITIAL","productConstraints":{"autoSMSVerificationSupported":true,"isAppleAvailable":false,"isFacebookAvailable":false,"isGoogleAvailable":false,"isKakaoAvailable":false,"isRakutenAvailable":false,"isWhatsAppAvailable":false,"uslFELibVersion":"","uslMobileLibVersion":""},"screenAnswers":[{"eventType":"TypeInputMobile","fieldAnswers":[{"fieldType":"PHONE_COUNTRY_CODE","phoneCountryCode":"91"},{"fieldType":"PHONE_NUMBER","phoneNumber":"REDACTED"}],"screenType":"PHONE_NUMBER_INITIAL"}],"standardFlow":true},"inAuthSessionID":""}}
